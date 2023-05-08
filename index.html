@@ -13,12 +13,14 @@
 <body>
 
     <div id="app" class="box">
+        <img :src="img" alt="">
 
-        <h1>{{il}} {{mio}} {{primo}} {{messaggio}}</h1>
+        <h1 :class="messaggio2">{{il}} {{mio}} {{primo}} {{messaggio}}</h1>
         
         <h2>{{messaggio2}}</h2>
-        <input v-model="messaggio2">
-        
+        <input v-model="messaggio2" placeholder="Scrivi il tuo titolo">
+        <a :href="link">🍻🍻🍻OKTOBERFEST🍻🍻🍻</a>
+        <button  @click="btn">ANDIAMO</button>
     </div>
 
 
