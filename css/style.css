@@ -17,8 +17,8 @@ body{
 }
 
 .box{
-    width: 30rem;
-    height: 10rem;
+    width: 70rem;
+    height: 17rem;
     background: linear-gradient( to right, #1f1a11, #f6360b );
     color: white;
     display: flex;
