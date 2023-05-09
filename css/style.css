@@ -28,6 +28,10 @@ body{
     font-size: 1.7rem;
     border-radius: 15px;
 }
+.immagine{
+    width: 10rem;
+    height: 15rem;
+}
 
 .green{
     background: linear-gradient( to right, #111d1f, #0bf69c );
